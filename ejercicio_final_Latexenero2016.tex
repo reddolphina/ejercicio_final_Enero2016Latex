@@ -1,0 +1,65 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{makeidx}
+\usepackage{cite}
+\usepackage{graphicx}
+\title{Ejercicio curso de \LaTeX{} y Git para la investigación científica}
+\author{Yaiza González Corrales}
+\begin{document}
+\maketitle%Ejercicio propuesto para el curso de Latex y Git
+\abstract{En esta plantilla queda plasmado los conocimientos que me han propocionado este curso así como la tarea marcada, que incluye, una tabla, una lista, una gráfica , una fórmula y una bibliografía.}
+\\
+\\
+\\
+
+\section{Una tabla}
+
+\begin{tabular}[c]{|l|c|r|}
+\hline
+\textbf{ELFOS} & \textbf{HOBBITS}  & \textbf{ENANOS}\\
+\hline
+ Elrond & Samsagaz & Gimli\\
+\hline
+Legolas & Frodo &    Thorin\\
+\hline
+Galadriel & Pippin & Balin\\ 
+\hline
+
+
+\end{tabular}
+\\
+\\
+\section{Una figura y una fórmula}
+
+\includegraphics{einstein.jpg}
+
+\begin{equation}
+[E=mc^2]
+\end{equation}
+
+\section{Una lista y bibliografía}
+\begin{enumerate}
+\item Algunos colores:
+\begin{itemize}
+\item amarillo
+\item Rojo
+\item Verde
+\item Azul
+\item Negro \cite{Libro1}
+\end{itemize}
+\end{enumerate}
+
+
+
+\bibliographystyle{acm}
+\bibliography{biblio2}
+
+
+
+
+
+\end{document}
